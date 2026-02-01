@@ -83,7 +83,7 @@ beasiswa-nb/
 ### 1. Clone Repository
 
 ```bash
-  git clone https://github.com/TriRestuSanubari/be-selodang.git
+  git clone https://github.com/TriRestuSanubari/beasiswa-nb.git
   cd beasiswa-nb
 ```
 
