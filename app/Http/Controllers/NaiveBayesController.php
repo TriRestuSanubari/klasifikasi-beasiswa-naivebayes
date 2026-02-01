@@ -17,9 +17,7 @@ class NaiveBayesController extends Controller
      */
     public function index()
     {
-        // =========================
-        // TAMBAHKAN KODE INI:
-        // =========================
+        // Logika Pertama
         $totalData = DataTraining::count();
         $layakCount = DataTraining::where('status', 'Layak')->count();
         $tidakLayakCount = DataTraining::where('status', 'Tidak Layak')->count();
